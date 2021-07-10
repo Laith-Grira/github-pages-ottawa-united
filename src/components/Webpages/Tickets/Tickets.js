@@ -1,3 +1,5 @@
+import './Tickets.css';
+
 const Tickets = () => {
     return ( 
         <div className="main-tickets">

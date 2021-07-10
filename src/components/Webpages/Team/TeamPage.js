@@ -1,4 +1,4 @@
-
+import './TeamPage.css';
 
 const TeamPage = () => {
     return ( 
