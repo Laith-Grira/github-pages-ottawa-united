@@ -1,23 +1,22 @@
 {
   "files": {
     "main.css": "/github-pages-ottawa-united/static/css/main.ab7136cd.chunk.css",
-    "main.js": "/github-pages-ottawa-united/static/js/main.ad69d389.chunk.js",
-    "main.js.map": "/github-pages-ottawa-united/static/js/main.ad69d389.chunk.js.map",
+    "main.js": "/github-pages-ottawa-united/static/js/main.aed14b1d.chunk.js",
+    "main.js.map": "/github-pages-ottawa-united/static/js/main.aed14b1d.chunk.js.map",
     "runtime-main.js": "/github-pages-ottawa-united/static/js/runtime-main.48100e00.js",
     "runtime-main.js.map": "/github-pages-ottawa-united/static/js/runtime-main.48100e00.js.map",
-    "static/js/2.0bc68931.chunk.js": "/github-pages-ottawa-united/static/js/2.0bc68931.chunk.js",
-    "static/js/2.0bc68931.chunk.js.map": "/github-pages-ottawa-united/static/js/2.0bc68931.chunk.js.map",
+    "static/js/2.eafe84bd.chunk.js": "/github-pages-ottawa-united/static/js/2.eafe84bd.chunk.js",
+    "static/js/2.eafe84bd.chunk.js.map": "/github-pages-ottawa-united/static/js/2.eafe84bd.chunk.js.map",
     "static/js/3.0e5dfecc.chunk.js": "/github-pages-ottawa-united/static/js/3.0e5dfecc.chunk.js",
     "static/js/3.0e5dfecc.chunk.js.map": "/github-pages-ottawa-united/static/js/3.0e5dfecc.chunk.js.map",
     "index.html": "/github-pages-ottawa-united/index.html",
     "static/css/main.ab7136cd.chunk.css.map": "/github-pages-ottawa-united/static/css/main.ab7136cd.chunk.css.map",
-    "static/js/2.0bc68931.chunk.js.LICENSE.txt": "/github-pages-ottawa-united/static/js/2.0bc68931.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/github-pages-ottawa-united/static/media/logo.6ce24c58.svg"
+    "static/js/2.eafe84bd.chunk.js.LICENSE.txt": "/github-pages-ottawa-united/static/js/2.eafe84bd.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.48100e00.js",
-    "static/js/2.0bc68931.chunk.js",
+    "static/js/2.eafe84bd.chunk.js",
     "static/css/main.ab7136cd.chunk.css",
-    "static/js/main.ad69d389.chunk.js"
+    "static/js/main.aed14b1d.chunk.js"
   ]
 }
