@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/github-pages-ottawa-united/static/css/main.a617e044.chunk.css",
-    "main.js": "/github-pages-ottawa-united/static/js/main.aee3d186.chunk.js",
-    "main.js.map": "/github-pages-ottawa-united/static/js/main.aee3d186.chunk.js.map",
+    "main.js": "/github-pages-ottawa-united/static/js/main.5a51977c.chunk.js",
+    "main.js.map": "/github-pages-ottawa-united/static/js/main.5a51977c.chunk.js.map",
     "runtime-main.js": "/github-pages-ottawa-united/static/js/runtime-main.25734c4d.js",
     "runtime-main.js.map": "/github-pages-ottawa-united/static/js/runtime-main.25734c4d.js.map",
-    "static/js/2.dcba26fd.chunk.js": "/github-pages-ottawa-united/static/js/2.dcba26fd.chunk.js",
-    "static/js/2.dcba26fd.chunk.js.map": "/github-pages-ottawa-united/static/js/2.dcba26fd.chunk.js.map",
+    "static/js/2.63483468.chunk.js": "/github-pages-ottawa-united/static/js/2.63483468.chunk.js",
+    "static/js/2.63483468.chunk.js.map": "/github-pages-ottawa-united/static/js/2.63483468.chunk.js.map",
     "static/js/3.d2493e7e.chunk.js": "/github-pages-ottawa-united/static/js/3.d2493e7e.chunk.js",
     "static/js/3.d2493e7e.chunk.js.map": "/github-pages-ottawa-united/static/js/3.d2493e7e.chunk.js.map",
     "index.html": "/github-pages-ottawa-united/index.html",
     "static/css/main.a617e044.chunk.css.map": "/github-pages-ottawa-united/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.dcba26fd.chunk.js.LICENSE.txt": "/github-pages-ottawa-united/static/js/2.dcba26fd.chunk.js.LICENSE.txt"
+    "static/js/2.63483468.chunk.js.LICENSE.txt": "/github-pages-ottawa-united/static/js/2.63483468.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.25734c4d.js",
-    "static/js/2.dcba26fd.chunk.js",
+    "static/js/2.63483468.chunk.js",
     "static/css/main.a617e044.chunk.css",
-    "static/js/main.aee3d186.chunk.js"
+    "static/js/main.5a51977c.chunk.js"
   ]
 }
