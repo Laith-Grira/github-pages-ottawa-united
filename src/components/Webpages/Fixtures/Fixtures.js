@@ -1,3 +1,5 @@
+import './Fixtures.css';
+
 const Fixtures = () => {
     return ( 
         <div className="main-fixtures">

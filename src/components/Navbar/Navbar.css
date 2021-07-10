@@ -1,0 +1,29 @@
+.nav-container {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    background-color: red;
+    margin-bottom: 200px;
+}
+
+.navbar {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    max-width: 600px;
+    max-height: 30px;
+    margin: 0 auto;
+    border-bottom: 1px solid #f2f2f2;
+  }
+
+  .navbar .links {
+    margin-left: auto;
+    max-width: 600px;
+    margin: 40px;
+    padding: 20px;
+  }
+  .navbar a {
+    margin-left: 16px;
+    text-decoration: none;
+    padding: 6px;
+  }
