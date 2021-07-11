@@ -1,4 +1,6 @@
 import './TeamPage.css';
+
+//Team pictures
 import Neuer from '../../../assets/teamPictures/neuer.png';
 import Sven from '../../../assets/teamPictures/sven.png';
 import Sule from '../../../assets/teamPictures/sule.png';
@@ -16,13 +18,21 @@ import Gnabry from '../../../assets/teamPictures/gnabry.png';
 import Lewa from '../../../assets/teamPictures/lewa.png';
 import Muller from '../../../assets/teamPictures/muller.png';
 
+//Icons
+import Shoe from '../../../assets/icons/shoe.png';
+import Glove from '../../../assets/icons/glove.png';
+import Soccer from '../../../assets/icons/soccer.png';
+import Defence from '../../../assets/icons/defense.png';
+
+
+
 const TeamPage = () => {
     return ( 
         <div className="team-main">
             <h1 className="team-title">Team Squad</h1>
             <div className="team">
                 <div className="goalkeepers">
-                    <h1>Goalkeepers</h1>
+                    <h1><img src={Glove} alt="glove" className="icon" /> Goalkeepers</h1>
                     <div className="players">
                         <div className="player">
                             <div className="player-pic">
@@ -45,7 +55,7 @@ const TeamPage = () => {
                     </div>
                 </div>
                 <div className="defenders">
-                    <h1>Defenders</h1>
+                    <h1><img src={Defence} alt="defence" className="icon" /> Defenders</h1>
                     <div className="players">
                         <div className="player">
                             <div className="player-pic">
@@ -95,7 +105,7 @@ const TeamPage = () => {
                     </div>
                 </div>
                 <div className="midfielders">
-                    <h1>Midfeilders</h1>
+                    <h1><img src={Soccer} alt="soccer" className="icon" /> Midfeilders</h1>
                     <div className="players">
                         <div className="player">
                             <div className="player-pic">
@@ -121,7 +131,7 @@ const TeamPage = () => {
                             </div>
                             <div className="player-info">
                                 <div className="player-num">17</div>
-                                <div className="player-name">Michael Cuisance</div>
+                                <div className="player-name">Michael Cuisanc</div>
                             </div>
                         </div>
                         <div className="player">
@@ -154,7 +164,7 @@ const TeamPage = () => {
                     </div>
                 </div>
                 <div className="attackers">
-                    <h1>Attackers</h1>
+                    <h1><img src={Shoe} alt="shoe" className="icon" /> Attackers</h1>
                     <div className="players">
                         <div className="player">
                             <div className="player-pic">
