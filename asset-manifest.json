@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/github-pages-ottawa-united/static/css/main.8f34a181.chunk.css",
-    "main.js": "/github-pages-ottawa-united/static/js/main.bf036635.chunk.js",
-    "main.js.map": "/github-pages-ottawa-united/static/js/main.bf036635.chunk.js.map",
+    "main.css": "/github-pages-ottawa-united/static/css/main.f122588e.chunk.css",
+    "main.js": "/github-pages-ottawa-united/static/js/main.ed6cded8.chunk.js",
+    "main.js.map": "/github-pages-ottawa-united/static/js/main.ed6cded8.chunk.js.map",
     "runtime-main.js": "/github-pages-ottawa-united/static/js/runtime-main.96b9642f.js",
     "runtime-main.js.map": "/github-pages-ottawa-united/static/js/runtime-main.96b9642f.js.map",
     "static/js/2.724f2d1f.chunk.js": "/github-pages-ottawa-united/static/js/2.724f2d1f.chunk.js",
@@ -10,18 +10,38 @@
     "static/js/3.70b56289.chunk.js": "/github-pages-ottawa-united/static/js/3.70b56289.chunk.js",
     "static/js/3.70b56289.chunk.js.map": "/github-pages-ottawa-united/static/js/3.70b56289.chunk.js.map",
     "index.html": "/github-pages-ottawa-united/index.html",
-    "static/css/main.8f34a181.chunk.css.map": "/github-pages-ottawa-united/static/css/main.8f34a181.chunk.css.map",
+    "static/css/main.f122588e.chunk.css.map": "/github-pages-ottawa-united/static/css/main.f122588e.chunk.css.map",
     "static/js/2.724f2d1f.chunk.js.LICENSE.txt": "/github-pages-ottawa-united/static/js/2.724f2d1f.chunk.js.LICENSE.txt",
     "static/media/OttawaUnited.a97ef201.png": "/github-pages-ottawa-united/static/media/OttawaUnited.a97ef201.png",
+    "static/media/chris.1a192525.png": "/github-pages-ottawa-united/static/media/chris.1a192525.png",
+    "static/media/davies.bee04803.png": "/github-pages-ottawa-united/static/media/davies.bee04803.png",
+    "static/media/edmonton.dc7306f9.png": "/github-pages-ottawa-united/static/media/edmonton.dc7306f9.png",
+    "static/media/fein.1c85fdaa.png": "/github-pages-ottawa-united/static/media/fein.1c85fdaa.png",
+    "static/media/forge.088849d5.png": "/github-pages-ottawa-united/static/media/forge.088849d5.png",
+    "static/media/gnabry.42ad212c.png": "/github-pages-ottawa-united/static/media/gnabry.42ad212c.png",
+    "static/media/halifax.38c18286.png": "/github-pages-ottawa-united/static/media/halifax.38c18286.png",
     "static/media/kakaManager.e55ab0a7.jpg": "/github-pages-ottawa-united/static/media/kakaManager.e55ab0a7.jpg",
+    "static/media/kimmich.c06efc82.png": "/github-pages-ottawa-united/static/media/kimmich.c06efc82.png",
+    "static/media/leon.6bb500eb.png": "/github-pages-ottawa-united/static/media/leon.6bb500eb.png",
+    "static/media/lewa.69295eac.png": "/github-pages-ottawa-united/static/media/lewa.69295eac.png",
+    "static/media/lucas.1b50d0bf.png": "/github-pages-ottawa-united/static/media/lucas.1b50d0bf.png",
+    "static/media/marc.c8708410.png": "/github-pages-ottawa-united/static/media/marc.c8708410.png",
+    "static/media/michael.2421700d.png": "/github-pages-ottawa-united/static/media/michael.2421700d.png",
+    "static/media/muller.de738916.png": "/github-pages-ottawa-united/static/media/muller.de738916.png",
+    "static/media/neuer.1b7bc24b.png": "/github-pages-ottawa-united/static/media/neuer.1b7bc24b.png",
+    "static/media/pavard.78f7d54b.png": "/github-pages-ottawa-united/static/media/pavard.78f7d54b.png",
     "static/media/stadium.22c8d3d6.jpg": "/github-pages-ottawa-united/static/media/stadium.22c8d3d6.jpg",
+    "static/media/sule.1000349a.png": "/github-pages-ottawa-united/static/media/sule.1000349a.png",
+    "static/media/sven.264c32ac.png": "/github-pages-ottawa-united/static/media/sven.264c32ac.png",
     "static/media/teamImage.35528bd8.jpg": "/github-pages-ottawa-united/static/media/teamImage.35528bd8.jpg",
-    "static/media/xhaka.f50fc737.jpg": "/github-pages-ottawa-united/static/media/xhaka.f50fc737.jpg"
+    "static/media/tolisso.5723d9c0.png": "/github-pages-ottawa-united/static/media/tolisso.5723d9c0.png",
+    "static/media/xhaka.f50fc737.jpg": "/github-pages-ottawa-united/static/media/xhaka.f50fc737.jpg",
+    "static/media/york.191f6ac9.png": "/github-pages-ottawa-united/static/media/york.191f6ac9.png"
   },
   "entrypoints": [
     "static/js/runtime-main.96b9642f.js",
     "static/js/2.724f2d1f.chunk.js",
-    "static/css/main.8f34a181.chunk.css",
-    "static/js/main.bf036635.chunk.js"
+    "static/css/main.f122588e.chunk.css",
+    "static/js/main.ed6cded8.chunk.js"
   ]
 }
