@@ -1,0 +1,38 @@
+.main-fixtures {
+    margin-top: 100px;
+    width: 50%;
+    margin-left: 25%;
+    text-align: left;
+}
+
+.match {
+    height: 120px;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 2px solid rgb(197, 4, 4);
+    display: flex;
+    flex-direction: row;
+
+}
+
+.league-cup, .premier-league {
+    margin-bottom: 100px;
+}
+
+.teams {
+    height: 100%;
+    width: 45%;
+    background-color: aqua;
+}
+
+.match-info {
+    height: 100%;
+    width: 35%;
+    background-color: blueviolet;
+}
+
+.stadium {
+    height: 100%;
+    width: 20%;
+    background-color: greenyellow;
+}
