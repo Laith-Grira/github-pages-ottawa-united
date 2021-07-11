@@ -8,6 +8,7 @@ import Tickets from './components/Webpages/Tickets/Tickets';
 import Stats from './components/Webpages/Stats/Stats';
 import Contact from './components/Webpages/Contact/Contact';
 import Navbar from './components/Navbar/Navbar';
+import NewsTitle from './components/NewsPages/News-title/NewsTitle';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             <Route exact path ="/tickets"><Tickets /></Route>
             <Route exact path ="/stats"><Stats /></Route>
             <Route exact path ="/contact"><Contact /></Route>
+            <Route exact path ="/news-title"><NewsTitle /></Route>
           </Switch>
         </div>
       </div>
