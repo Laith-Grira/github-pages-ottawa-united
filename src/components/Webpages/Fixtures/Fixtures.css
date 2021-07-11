@@ -22,17 +22,31 @@
 .teams {
     height: 100%;
     width: 45%;
-    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .match-info {
     height: 100%;
-    width: 35%;
-    background-color: blueviolet;
+    width: 40%;
 }
 
 .stadium {
     height: 100%;
-    width: 20%;
-    background-color: greenyellow;
+    width: 15%;
+}
+
+.team-pic {
+    width: 110px;
+}
+
+.vs-tag {
+    font-size: 60px;
+    line-height: 10px;
+}
+
+.match-info {
+    font-size: 20px;
+    text-align: center;
 }
