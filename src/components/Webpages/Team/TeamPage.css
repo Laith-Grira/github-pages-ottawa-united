@@ -62,3 +62,7 @@
 .attackers, .midfielders, .defenders, .goalkeepers {
     margin-bottom: 100px;
 }
+
+.icon {
+    width: 50px;
+}
