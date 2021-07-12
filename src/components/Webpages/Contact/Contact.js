@@ -14,7 +14,7 @@ const Contact = () => {
     const [twitterMsg, setTwitterMsg] = useState([]);
 
     return ( 
-        <div className="main-contact">
+        <div className="main-contact mt-4">
             <h1>Contact page</h1>
             <div className="quick-contact mt-5">
                 <h4>Contact The Team managment</h4>
