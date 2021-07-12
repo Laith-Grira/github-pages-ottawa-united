@@ -4,7 +4,7 @@ const Stats = () => {
     return ( 
         <div className="main-stats mt-5">
             <h1>Canadian League Table</h1>
-            <table className="table-elem">
+            <table className="table-elem mb-3">
                 <tr>
                     <th>Club</th>
                     <th>MP</th>
@@ -117,6 +117,7 @@ const Stats = () => {
                     <td>31</td>
                 </tr>
                 </table>
+                <p><b>Legend:</b> <br /> <b>MP</b> (Matchs Played), <b>Pts</b> (Points), <b>W</b> (Wins), <b>D</b> (Draws), <b>L</b> (Loses), <b>GF</b> (Goals For), <b>GA</b> (Goals Against)</p>
 
         </div>
      );
