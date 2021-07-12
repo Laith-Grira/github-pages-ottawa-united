@@ -1,5 +1,6 @@
 import './Tickets.css';
 import { useState } from "react";
+import swal from 'sweetalert';
 
 
 // Import icons
@@ -111,17 +112,17 @@ const Tickets = () => {
                                                     const year = date.substring(3,8);
 
                                                     if (!reg.test(month) || !reg.test(year) || (date[2] !== '/')) {
-                                                        alert("Wrong Expiry Date Format! Please follow the MM/YYYY format.");
+                                                        swal("Wrong date format", "Wrong Expiry Date Format in your credit card expiry date! Please follow the MM/YYYY format.", "warning");
                                                     } else {
                                                         setExpiryDateValid('false');
                                                         if (parseInt(month) < 0 ) {
-                                                            alert("Month can not be les than 0.");
+                                                            swal("Invalid Month", "Month can not be les than 0 in your credit card expiry date.", "warning");
                                                         } else if(parseInt(month)>12) {
-                                                            alert("Month can not be bigger than 12.")
+                                                            swal("Invalid Month", "Month can not be bigger than 12 in your credit card expiry date.", "warning");
                                                         } else if (parseInt(year) < 2021) {
-                                                            alert("Year can not be less than 2021.")
+                                                            swal("Invalid Year", "Year can not be less than 2021 in your credit card expiry date.", "warning");
                                                         } else if(parseInt(year)>2050) {
-                                                            alert("Year can not exceed 2050.");
+                                                            swal("Invalid Year", "Year can not exceed 2050 in your credit card expiry date.", "warning");
                                                         } else {
                                                             setExpiryDateValid('true');
                                                         }
@@ -164,21 +165,21 @@ const Tickets = () => {
                                 onClick = {
                                     () => {
                                         if (matchTicketValid !== 'true') {
-                                            alert("Please make sure to choose your match day ticket in Section 1.");
+                                            swal("No ticket was selected", "Please make sure to choose your match day ticket in Section 1.", "error");
                                         } else if (seatValid !== 'true') {
-                                            alert("Please make sure to choose your seat in Section 2.");
+                                            swal("No seat was selected", "Please make sure to choose your seat in Section 2.", "error");
                                         } else if (name !== 'true') {
-                                            alert("Please make sure to enter your name in Section 3.");
+                                            swal("Invalid name", "Please make sure to enter your name in Section 3.", "error");
                                         } else if (email !== 'true') {
-                                            alert("Please make sure to enter your email in Section 3.");
+                                            swal("Invalid email", "Please make sure to enter your email in Section 3.", "error");
                                         } else if (creditNumberValid !== 'true') {
-                                            alert("Please check your credit card number in Section 4.");
+                                            swal("Invalid credit card number", "Please check your credit card number in Section 4.", "error");
                                         } else if (expiryDateValid !== 'true') {
-                                            alert("Please check your credit card expiry date in Section 4");
+                                            swal("Invalid expiry date for credit card", "Please check your credit card expiry date in Section 4.", "error");
                                         } else if (codeValid !== 'true') {
-                                            alert("Please check your CVV code in Section 4.")
+                                            swal("Invalid CVV for credit card", "Please check your CVV code in Section 4.", "error");
                                         } else {
-                                            alert("Success!! Your bought the ticket!");
+                                            swal("Success!!", "You hav successfully bought your ticket.", "success");
                                         }
                                     }
                                 }
