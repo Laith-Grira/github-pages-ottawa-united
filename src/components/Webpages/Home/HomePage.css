@@ -18,7 +18,7 @@
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 .news-info {
@@ -61,6 +61,11 @@ a {
 .news1, .news2, .news3 {
     height: 200px;
     width: 32%;
+}
+
+.news1 a, .news2 a, .news3 a {
+    text-decoration: none;
+    color: black;
 }
 
 .news1:hover, .news2:hover, .news3:hover {
