@@ -1,5 +1,10 @@
 import './Tickets.css';
 
+// Import icons
+import mastercard from '../../../assets/icons/mastercard.png';
+import cvv from '../../../assets/icons/cvv.png';
+import visa from '../../../assets/icons/visa.png';
+
 const Tickets = () => {
     return ( 
         <div className="main-tickets mt-4 mb-5">
@@ -47,14 +52,14 @@ const Tickets = () => {
                                 <input placeholder="XXXX XXXX XXXX XXXX" 
                                                     type="text" id="debit" 
                                                     title="We ask for your credit card number in case of no-show, 20$ will be charged."/>
-                                                    <img src="images/mastercard.png" alt="logo"/>
-                                                    <img src="images/visa.png" alt="logo" />
+                                                    <img src={mastercard} alt="logo"/>
+                                                    <img src={visa} alt="logo" />
                                                 </p>
                             <div className="card-info">
                             <div><b>Expiry Date</b>: <br />
                                 <input type="text" id="dateInputCredit" placeholder="MM/YYYY" /></div>
                             <div><b>CVV:</b> <br />
-                                <input placeholder="XXX" type="text" id="code" /> <img src="images/cvv.png" alt="logo"/></div>
+                                <input placeholder="XXX" type="text" id="code" /> <img src={cvv} alt="logo"/></div>
                             </div>
                         </div>
                     </div>
