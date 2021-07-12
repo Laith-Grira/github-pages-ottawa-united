@@ -1,5 +1,7 @@
 import './Contact.css';
-import { useEffect, useState } from "react";
+import { useState } from "react";
+import swal from 'sweetalert';
+
 
 
 const Contact = () => {
@@ -44,13 +46,13 @@ const Contact = () => {
                             className="btn btn-secondary send-email"
                             onClick={ () => {
                                 if (name == '') {
-                                    alert("Please insert your Full Name");
+                                    swal("Invalid Name", "Please insert your Full Name in the requested field.", "error");
                                 } else if (email == ''){
-                                    alert("Please insert your email");
+                                    swal("Invalid Email", "Please insert your Full Email in the requested field.", "error");
                                 } else if (emailMsg == '') {
-                                    alert('Please enter an email message');
+                                    swal("Invalid message in the email", "Please insert your message in the requested field.", "error");
                                 } else {
-                                    alert("Email is sent successfully!");
+                                    swal("Success!!", "Email is successfully sent to our team managment.", "success");
                                 }
                             }}
                             ><b>Send Email</b></button>
@@ -79,13 +81,13 @@ const Contact = () => {
                             className="btn btn-secondary send-email"
                             onClick={() => {
                                 if (twitterID == '') {
-                                    alert("Please insert your Twitter ID");
+                                    swal("Empty Twitter ID", "Please insert your twitter ID in the requested field.", "error");
                                 } else if (twitterID[0] !="@"){
-                                    alert("Please make sure you add the '@' at the begining");
+                                    swal("Invalid Twitter ID", "Please make sure you add the '@' at the begining of your twitter ID.", "error");
                                 } else if (twitterMsg == '') {
-                                    alert('Please enter a message in the text area');
+                                    swal("Invalid message", "Please enter a message in the text area.", "error");
                                 } else {
-                                    alert("Tweet is sent successfully!");
+                                    swal("Success!!", "Tweet is successfully sent to our twitter page.", "success");
                                 }
                             }}><b>Tweet</b></button>
                 </form>
