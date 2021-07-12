@@ -6,6 +6,7 @@ import { useState } from "react";
 import mastercard from '../../../assets/icons/mastercard.png';
 import cvv from '../../../assets/icons/cvv.png';
 import visa from '../../../assets/icons/visa.png';
+import info from '../../../assets/icons/info.png';
 
 const Tickets = () => {
 
@@ -27,23 +28,33 @@ const Tickets = () => {
                 <div className="ticket-info pt-5">
                     <div className="match-day">
                         <h3>1 - Match Day</h3>
-                        <select id="dietSelect" name="dietSelect" className="input-style" onChange={ e => { setMatchTicketValid('true')}}>
-                            <option value="" disabled selected hidden>Select Match Day</option>
-                            <option value="OUFC-HAL"> Ottawa United --- Halifax FC</option>
-                            <option value="YUFC-OUFC"> York United --- Ottawa United</option>
-                            <option value="FCE-OUFC"> FC Edmonton --- Ottawa United</option>
-                            <option value="OUFC-FCF"> Ottawa United --- FC Forge</option>
-                        </select>
+                        <div className="match-info">
+                            <select id="dietSelect" name="dietSelect" className="input-style" onChange={ e => { setMatchTicketValid('true')}}>
+                                <option value="" disabled selected hidden>Select Match Day</option>
+                                <option value="OUFC-HAL"> Ottawa United --- Halifax FC</option>
+                                <option value="YUFC-OUFC"> York United --- Ottawa United</option>
+                                <option value="FCE-OUFC"> FC Edmonton --- Ottawa United</option>
+                                <option value="OUFC-FCF"> Ottawa United --- FC Forge</option>
+                            </select>
+                            <div title="Choose the game that you want to watch">
+                                <img src={info} alt="info" className="info-icon" />
+                            </div>
+                        </div>
                     </div>
                     <div className="match-seat mt-5">
                         <h3>2 - Seat</h3>
-                        <select id="dietSelect" name="dietSelect" className="input-style" onChange={ e => { setSeatValid('true') }}>
-                            <option value="" disabled selected hidden>Select Your Seat</option>
-                            <option value="cat1"> $30 - CAT 1</option>
-                            <option value="cat2"> $55 - CAT 2</option>
-                            <option value="cat3"> $105 - CAT 3 </option>
-                            <option value="pre"> $450 - Premium</option>
-                        </select>
+                        <div className="match-info">
+                            <select id="dietSelect" name="dietSelect" className="input-style" onChange={ e => { setSeatValid('true') }}>
+                                <option value="" disabled selected hidden>Select Your Seat</option>
+                                <option value="cat1"> $30 - CAT 1</option>
+                                <option value="cat2"> $55 - CAT 2</option>
+                                <option value="cat3"> $105 - CAT 3 </option>
+                                <option value="pre"> $450 - Premium</option>
+                            </select>
+                            <div title="Choose where you want to sit in the stadium">
+                                <img src={info} alt="info" className="info-icon" />
+                            </div>
+                        </div>
                     </div>
                     <div className="personal-info mt-5">
                         <h3>3 - Personal Info</h3>
