@@ -12,7 +12,7 @@ const Tickets = () => {
             <form action="#" method="post">
                 <div className="ticket-info pt-5">
                     <div className="match-day">
-                        <h3>Match Day</h3>
+                        <h3>1 - Match Day</h3>
                         <select id="dietSelect" name="dietSelect" className="input-style" onChange={ e => console.log(e.target.value)}>
                             <option value="" disabled selected hidden>Select Here</option>
                             <option value="Lactose Free">Lactose Free</option>
@@ -22,7 +22,7 @@ const Tickets = () => {
                         </select>
                     </div>
                     <div className="match-seat mt-5">
-                        <h3>Seat</h3>
+                        <h3>2 - Seat</h3>
                         <select id="dietSelect" name="dietSelect" className="input-style" onChange={ e => console.log(e.target.value)}>
                             <option value="" disabled selected hidden>Select Here</option>
                             <option value="Lactose Free">Lactose Free</option>
@@ -32,7 +32,7 @@ const Tickets = () => {
                         </select>
                     </div>
                     <div className="personal-info mt-5">
-                        <h3>Personal Info</h3>
+                        <h3>3 - Personal Info</h3>
                         <input type="text" 
                                 placeholder="Full Name" 
                                 className="input-style mb-2" 
@@ -45,7 +45,7 @@ const Tickets = () => {
                         <br />
                     </div>
                     <div className="payment mt-5">
-                        <h3>Payment</h3>
+                        <h3>4 - Payment</h3>
                         
                         <div className="credit-info">
                             <p><b>Credit Card:</b> <br />

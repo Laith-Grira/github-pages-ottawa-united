@@ -1,16 +1,18 @@
 .main-tickets {
     width: 50%;
     margin-left: 25%;
+    background-color: rgba(220, 220, 220, 0.5);
 }
 
 .ticket-info {
     width: 100%;
     text-align: left;
-    background-color: rgba(220, 220, 220, 0.5);
+    margin-left: 50px;
+    
 }
 
 .credit-info {
-    margin-left: 2rem;
+    margin-left: 3rem;
 }
 
 .card-info {
